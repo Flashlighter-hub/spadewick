@@ -1,0 +1,8 @@
+CGATS21_CRPC1.icc
+
+Reference printing condition CRPC1 of CGATS TR 015 / ISO 12647-2 type, US sheet-fed. Obtained from the ICC profile registry (https://www.color.org/registry/).
+
+Licence text embedded in the profile:
+"Copyright X-Rite, Inc. This profile is made available by IDEAlliance, with permission of X-Rite, Inc., and may be used, embedded, exchanged, included in commercial software and shared without restriction. It may not be altered without written permission of IDEAlliance except for single site use."
+
+The file is shipped unaltered.

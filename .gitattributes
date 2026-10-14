@@ -1,0 +1,10 @@
+* text=auto
+*.pdf binary
+*.png binary
+*.ico binary
+*.icc binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.zip binary

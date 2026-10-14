@@ -1,0 +1,44 @@
+{
+  "name": "spadewick",
+  "version": "2.0.0-dev.23",
+  "description": "Local-first card game design desktop application",
+  "main": "out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "dist": "npm run build && node scripts/native.mjs --electron-only && electron-builder && node scripts/native.mjs --node-only && node scripts/verify-package.mjs",
+    "rebuild": "electron-rebuild -f -w better-sqlite3",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "vitest run -c vitest.e2e.config.mjs",
+    "test:all": "vitest run && vitest run -c vitest.e2e.config.mjs",
+    "postinstall": "node scripts/native.mjs",
+    "native": "node scripts/native.mjs",
+    "docs": "node scripts/docs.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "better-sqlite3": "^12.11.1",
+    "bidi-js": "^1.1.0",
+    "electron-store": "^8.2.0",
+    "harfbuzzjs": "^1.6.2",
+    "konva": "^9.3.14",
+    "lcms-wasm": "^1.0.5",
+    "linebreak": "^1.1.0",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.35.5",
+    "wawoff2": "^2.0.1"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^4.2.0",
+    "@sveltejs/vite-plugin-svelte": "^3.1.0",
+    "axe-core": "^4.13.0",
+    "electron": "^42.11.10",
+    "electron-builder": "^26.15.3",
+    "electron-vite": "^2.3.0",
+    "playwright-core": "^1.63.0",
+    "svelte": "^4.2.18",
+    "vite": "^5.2.11",
+    "vitest": "^3.2.7"
+  }
+}

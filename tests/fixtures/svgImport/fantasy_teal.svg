@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2.5in" height="3.5in" viewBox="0 0 750 1050">
+  <defs>
+    <linearGradient id="parchment" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eee0b9"/>
+      <stop offset="0.5" stop-color="#e4d1a4"/>
+      <stop offset="1" stop-color="#d4bd8d"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#182b2a"/>
+      <stop offset="0.5" stop-color="#29413a"/>
+      <stop offset="1" stop-color="#101e1d"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7bc8c0"/>
+      <stop offset="0.5" stop-color="#397d78"/>
+      <stop offset="1" stop-color="#214f4d"/>
+    </linearGradient>
+    <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0c58d"/>
+      <stop offset="0.45" stop-color="#a98952"/>
+      <stop offset="1" stop-color="#625033"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#111" flood-opacity=".35"/>
+    </filter>
+    <pattern id="paperTexture" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="7" r="1" fill="#806e4c" opacity=".09"/>
+      <circle cx="21" cy="18" r="1.2" fill="#806e4c" opacity=".07"/>
+      <path d="M3 26 Q12 22 20 27" fill="none" stroke="#8c7851" stroke-opacity=".045" stroke-width="2"/>
+    </pattern>
+    <clipPath id="cardClip">
+      <rect width="750" height="1050" rx="42"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Deep fantasy backing -->
+    <rect width="750" height="1050" fill="#142321"/>
+    <rect x="18" y="18" width="714" height="1014" rx="32" fill="url(#wood)" stroke="url(#bronze)" stroke-width="5"/>
+    <rect x="31" y="31" width="688" height="988" rx="27" fill="none" stroke="#50645a" stroke-width="3"/>
+
+    <!-- Parchment field -->
+    <path d="M76 105 Q76 73 108 73 H642 Q674 73 674 105 V945 Q674 977 642 977 H108 Q76 977 76 945 Z"
+          fill="url(#parchment)" stroke="url(#bronze)" stroke-width="6"/>
+    <path d="M76 105 Q76 73 108 73 H642 Q674 73 674 105 V945 Q674 977 642 977 H108 Q76 977 76 945 Z"
+          fill="url(#paperTexture)"/>
+
+    <!-- Leafy side ornaments -->
+    <g fill="#405c4e" stroke="#263c35" stroke-width="3">
+      <path d="M79 146 Q45 121 61 95 Q89 105 101 128 Q84 121 79 146Z"/>
+      <path d="M79 182 Q43 161 54 136 Q85 143 100 164 Q83 157 79 182Z"/>
+      <path d="M79 218 Q44 201 50 176 Q80 180 99 200 Q82 195 79 218Z"/>
+      <path d="M671 146 Q705 121 689 95 Q661 105 649 128 Q666 121 671 146Z"/>
+      <path d="M671 182 Q707 161 696 136 Q665 143 650 164 Q667 157 671 182Z"/>
+      <path d="M671 218 Q706 201 700 176 Q670 180 651 200 Q668 195 671 218Z"/>
+      <path d="M79 904 Q43 929 61 955 Q89 945 101 922 Q84 929 79 904Z"/>
+      <path d="M671 904 Q707 929 689 955 Q661 945 649 922 Q666 929 671 904Z"/>
+    </g>
+
+    <!-- Cost gem -->
+    <g filter="url(#softShadow)">
+      <circle cx="118" cy="123" r="67" fill="#172b2a" stroke="url(#bronze)" stroke-width="7"/>
+      <circle cx="118" cy="123" r="54" fill="url(#teal)" stroke="#a5d8cf" stroke-width="3"/>
+      <path d="M118 82 L148 108 L137 151 L99 151 L88 108 Z" fill="#8ed2ca" opacity=".32"/>
+      <text x="118" y="116" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" letter-spacing="2" fill="#edf4dc">COST</text>
+      <text x="118" y="148" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#fff8df">0</text>
+    </g>
+
+    <!-- Card type heraldic badge -->
+    <g filter="url(#softShadow)">
+      <path d="M586 70 H678 V187 L632 225 L586 187 Z" fill="#172a28" stroke="url(#bronze)" stroke-width="6"/>
+      <path d="M598 83 H666 V181 L632 207 L598 181 Z" fill="none" stroke="#52746b" stroke-width="2"/>
+      <text x="632" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" letter-spacing="1.5" fill="#eadfbd">CARD</text>
+      <text x="632" y="143" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" letter-spacing="1.5" fill="#eadfbd">TYPE</text>
+      <path d="M632 157 l6 10 10 6 -10 6 -6 10 -6-10 -10-6 10-6z" fill="#78bcb5"/>
+    </g>
+
+    <!-- Title parchment banner -->
+    <g filter="url(#softShadow)">
+      <path d="M151 76 Q375 51 599 76 L620 113 L599 160 Q375 184 151 160 L130 113Z"
+            fill="#f0dfb7" stroke="url(#bronze)" stroke-width="5"/>
+      <path d="M151 91 Q375 70 599 91" fill="none" stroke="#b59b68" stroke-width="2"/>
+      <path d="M151 145 Q375 168 599 145" fill="none" stroke="#b59b68" stroke-width="2"/>
+      <text x="375" y="129" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="bold" letter-spacing="1.5" fill="#203330">CARD TITLE</text>
+    </g>
+
+    <!-- Heraldic top gem -->
+    <g>
+      <path d="M375 48 L391 67 L375 88 L359 67Z" fill="url(#teal)" stroke="url(#bronze)" stroke-width="3"/>
+      <path d="M375 57 L382 67 L375 77 L368 67Z" fill="#a5ded5" opacity=".75"/>
+    </g>
+
+    <!-- Subtitle ribbon -->
+    <g filter="url(#softShadow)">
+      <path d="M178 166 H572 L594 187 L572 216 H178 L156 187Z" fill="#315b55" stroke="url(#bronze)" stroke-width="4"/>
+      <path d="M178 176 H572" stroke="#75aaa0" stroke-opacity=".5" stroke-width="2"/>
+      <text x="375" y="199" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-style="italic" letter-spacing="2" fill="#eadfbe">CARD SUBTITLE</text>
+      <path d="M213 187 l5 5 5-5-5-5z M527 187 l5 5 5-5-5-5z" fill="#d9c68f"/>
+    </g>
+
+    <!-- Effect panel 1 -->
+    <g filter="url(#softShadow)">
+      <rect x="103" y="249" width="544" height="286" rx="18" fill="#eadbb8" stroke="#486860" stroke-width="4"/>
+      <rect x="114" y="260" width="522" height="264" rx="13" fill="none" stroke="#9a865b" stroke-width="2"/>
+      <!-- ornate corners -->
+      <path d="M103 286 Q126 263 149 249 M103 286 L128 277 L120 301Z" fill="none" stroke="#486860" stroke-width="4"/>
+      <path d="M647 286 Q624 263 601 249 M647 286 L622 277 L630 301Z" fill="none" stroke="#486860" stroke-width="4"/>
+      <path d="M103 498 Q126 521 149 535 M103 498 L128 507 L120 483Z" fill="none" stroke="#486860" stroke-width="4"/>
+      <path d="M647 498 Q624 521 601 535 M647 498 L622 507 L630 483Z" fill="none" stroke="#486860" stroke-width="4"/>
+      <text x="375" y="394" text-anchor="middle" font-family="Georgia, serif" font-size="24" letter-spacing="3" fill="#29423e">EFFECT TEXT 1</text>
+      <path d="M260 414 H490" stroke="#7d8f7c" stroke-width="1.5"/>
+    </g>
+
+    <!-- Central divider ornament -->
+    <g>
+      <path d="M125 561 H625" stroke="#6f806d" stroke-width="2"/>
+      <path d="M290 561 H460" stroke="#a28b5e" stroke-width="3"/>
+      <path d="M375 548 L388 561 L375 574 L362 561Z" fill="url(#teal)" stroke="url(#bronze)" stroke-width="3"/>
+    </g>
+
+    <!-- Effect panel 2 -->
+    <g filter="url(#softShadow)">
+      <rect x="103" y="588" width="544" height="286" rx="18" fill="#eadbb8" stroke="#486860" stroke-width="4"/>
+      <rect x="114" y="599" width="522" height="264" rx="13" fill="none" stroke="#9a865b" stroke-width="2"/>
+      <path d="M103 625 Q126 602 149 588 M103 625 L128 616 L120 640Z" fill="none" stroke="#486860" stroke-width="4"/>
+      <path d="M647 625 Q624 602 601 588 M647 625 L622 616 L630 640Z" fill="none" stroke="#486860" stroke-width="4"/>
+      <path d="M103 837 Q126 860 149 874 M103 837 L128 846 L120 822Z" fill="none" stroke="#486860" stroke-width="4"/>
+      <path d="M647 837 Q624 860 601 874 M647 837 L622 846 L630 822Z" fill="none" stroke="#486860" stroke-width="4"/>
+      <text x="375" y="733" text-anchor="middle" font-family="Georgia, serif" font-size="24" letter-spacing="3" fill="#29423e">EFFECT TEXT 2</text>
+      <path d="M260 753 H490" stroke="#7d8f7c" stroke-width="1.5"/>
+    </g>
+
+    <!-- Bottom botanical ornament -->
+    <g fill="#405c4e" stroke="#293e36" stroke-width="3">
+      <path d="M120 932 Q185 895 251 921 Q188 927 139 950Z"/>
+      <path d="M630 932 Q565 895 499 921 Q562 927 611 950Z"/>
+      <path d="M165 955 Q230 913 292 936 Q229 943 184 969Z"/>
+      <path d="M585 955 Q520 913 458 936 Q521 943 566 969Z"/>
+    </g>
+    <path d="M125 949 Q250 904 375 949 Q500 904 625 949" fill="none" stroke="#8d7448" stroke-width="4"/>
+
+    <!-- Bottom central gem -->
+    <g filter="url(#softShadow)">
+      <path d="M375 904 L414 948 L375 995 L336 948Z" fill="#1d3835" stroke="url(#bronze)" stroke-width="6"/>
+      <path d="M375 921 L397 948 L375 975 L353 948Z" fill="url(#teal)" stroke="#8acbc2" stroke-width="3"/>
+    </g>
+
+    <!-- Safe-area guide (hidden) -->
+    <g id="guides" display="none">
+      <rect x="58" y="58" width="634" height="934" rx="18" fill="none" stroke="#00ff00" stroke-width="2" stroke-dasharray="8 8"/>
+      <rect x="12" y="12" width="726" height="1026" rx="48" fill="none" stroke="#ff00ff" stroke-width="2" stroke-dasharray="8 8"/>
+    </g>
+  </g>
+</svg>

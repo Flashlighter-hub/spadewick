@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="420px" viewBox="0 0 300 420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 99.1 (12345) - https://sketch.com -->
+    <title>Card</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <rect id="Background" fill="#FAFAFA" x="0" y="0" width="300" height="420"></rect>
+        <text id="Name" sketch:type="MSTextLayer" font-family="Helvetica" font-size="24" font-weight="bold" fill="#000000">
+            <tspan x="20" y="40">Fireball</tspan>
+        </text>
+        <rect id="Name_box" fill="none" x="16" y="10" width="200" height="40"></rect>
+        <text id="Effect" font-family="Helvetica" font-size="14" fill="#333333"><tspan x="20" y="300">Deal damage.</tspan><tspan x="20" y="318">Draw a card.</tspan></text>
+    </g>
+</svg>

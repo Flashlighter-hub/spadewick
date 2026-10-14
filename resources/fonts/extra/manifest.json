@@ -1,0 +1,507 @@
+[
+ {
+  "family": "Cinzel",
+  "style": "Regular",
+  "file": "extra/cinzel/Cinzel[wght].ttf"
+ },
+ {
+  "family": "Cinzel Decorative",
+  "style": "Bold",
+  "file": "extra/cinzeldecorative/CinzelDecorative-Bold.ttf"
+ },
+ {
+  "family": "Cinzel Decorative",
+  "style": "Regular",
+  "file": "extra/cinzeldecorative/CinzelDecorative-Regular.ttf"
+ },
+ {
+  "family": "Uncial Antiqua",
+  "style": "Regular",
+  "file": "extra/uncialantiqua/UncialAntiqua-Regular.ttf"
+ },
+ {
+  "family": "Metamorphous",
+  "style": "Regular",
+  "file": "extra/metamorphous/Metamorphous-Regular.ttf"
+ },
+ {
+  "family": "Almendra",
+  "style": "Bold",
+  "file": "extra/almendra/Almendra-Bold.ttf"
+ },
+ {
+  "family": "Almendra",
+  "style": "Bold Italic",
+  "file": "extra/almendra/Almendra-BoldItalic.ttf"
+ },
+ {
+  "family": "Almendra",
+  "style": "Italic",
+  "file": "extra/almendra/Almendra-Italic.ttf"
+ },
+ {
+  "family": "Almendra",
+  "style": "Regular",
+  "file": "extra/almendra/Almendra-Regular.ttf"
+ },
+ {
+  "family": "IM FELL Double Pica",
+  "style": "Italic",
+  "file": "extra/imfelldoublepica/IMFELLDoublePica-Italic.ttf"
+ },
+ {
+  "family": "IM FELL Double Pica",
+  "style": "Regular",
+  "file": "extra/imfelldoublepica/IMFELLDoublePica-Regular.ttf"
+ },
+ {
+  "family": "Pirata One",
+  "style": "Regular",
+  "file": "extra/pirataone/PirataOne-Regular.ttf"
+ },
+ {
+  "family": "Grenze Gotisch",
+  "style": "Regular",
+  "file": "extra/grenzegotisch/GrenzeGotisch[wght].ttf"
+ },
+ {
+  "family": "Eagle Lake",
+  "style": "Regular",
+  "file": "extra/eaglelake/EagleLake-Regular.ttf"
+ },
+ {
+  "family": "Macondo",
+  "style": "Regular",
+  "file": "extra/macondo/Macondo-Regular.ttf"
+ },
+ {
+  "family": "Caudex",
+  "style": "Halvfet",
+  "file": "extra/caudex/Caudex-Bold.ttf"
+ },
+ {
+  "family": "Caudex",
+  "style": "Halvfet Kursiv",
+  "file": "extra/caudex/Caudex-BoldItalic.ttf"
+ },
+ {
+  "family": "Caudex",
+  "style": "Kursiv",
+  "file": "extra/caudex/Caudex-Italic.ttf"
+ },
+ {
+  "family": "Caudex",
+  "style": "Normal",
+  "file": "extra/caudex/Caudex-Regular.ttf"
+ },
+ {
+  "family": "UnifrakturCook",
+  "style": "Bold",
+  "file": "extra/unifrakturcook/UnifrakturCook-Bold.ttf"
+ },
+ {
+  "family": "New Rocker",
+  "style": "Regular",
+  "file": "extra/newrocker/NewRocker-Regular.ttf"
+ },
+ {
+  "family": "Bevan",
+  "style": "Italic",
+  "file": "extra/bevan/Bevan-Italic.ttf"
+ },
+ {
+  "family": "Bevan",
+  "style": "Regular",
+  "file": "extra/bevan/Bevan-Regular.ttf"
+ },
+ {
+  "family": "Creepster",
+  "style": "Regular",
+  "file": "extra/creepster/Creepster-Regular.ttf"
+ },
+ {
+  "family": "Alegreya",
+  "style": "Regular",
+  "file": "extra/alegreya/Alegreya[wght].ttf"
+ },
+ {
+  "family": "Alegreya",
+  "style": "Italic",
+  "file": "extra/alegreya/Alegreya-Italic[wght].ttf"
+ },
+ {
+  "family": "Alegreya SC",
+  "style": "Bold",
+  "file": "extra/alegreyasc/AlegreyaSC-Bold.ttf"
+ },
+ {
+  "family": "Alegreya SC",
+  "style": "Bold Italic",
+  "file": "extra/alegreyasc/AlegreyaSC-BoldItalic.ttf"
+ },
+ {
+  "family": "Alegreya SC",
+  "style": "Italic",
+  "file": "extra/alegreyasc/AlegreyaSC-Italic.ttf"
+ },
+ {
+  "family": "Alegreya SC",
+  "style": "Regular",
+  "file": "extra/alegreyasc/AlegreyaSC-Regular.ttf"
+ },
+ {
+  "family": "Lora",
+  "style": "Regular",
+  "file": "extra/lora/Lora[wght].ttf"
+ },
+ {
+  "family": "Lora",
+  "style": "Italic",
+  "file": "extra/lora/Lora-Italic[wght].ttf"
+ },
+ {
+  "family": "Merriweather",
+  "style": "Light",
+  "file": "extra/merriweather/Merriweather[opsz,wdth,wght].ttf"
+ },
+ {
+  "family": "Merriweather",
+  "style": "Light Italic",
+  "file": "extra/merriweather/Merriweather-Italic[opsz,wdth,wght].ttf"
+ },
+ {
+  "family": "EB Garamond",
+  "style": "Regular",
+  "file": "extra/ebgaramond/EBGaramond[wght].ttf"
+ },
+ {
+  "family": "EB Garamond",
+  "style": "Italic",
+  "file": "extra/ebgaramond/EBGaramond-Italic[wght].ttf"
+ },
+ {
+  "family": "Cormorant Garamond",
+  "style": "Light",
+  "file": "extra/cormorantgaramond/CormorantGaramond[wght].ttf"
+ },
+ {
+  "family": "Cormorant Garamond",
+  "style": "Light Italic",
+  "file": "extra/cormorantgaramond/CormorantGaramond-Italic[wght].ttf"
+ },
+ {
+  "family": "Crimson Pro",
+  "style": "Regular",
+  "file": "extra/crimsonpro/CrimsonPro[wght].ttf"
+ },
+ {
+  "family": "Crimson Pro",
+  "style": "Italic",
+  "file": "extra/crimsonpro/CrimsonPro-Italic[wght].ttf"
+ },
+ {
+  "family": "Libre Baskerville",
+  "style": "Regular",
+  "file": "extra/librebaskerville/LibreBaskerville[wght].ttf"
+ },
+ {
+  "family": "Libre Baskerville",
+  "style": "Italic",
+  "file": "extra/librebaskerville/LibreBaskerville-Italic[wght].ttf"
+ },
+ {
+  "family": "Playfair Display",
+  "style": "Regular",
+  "file": "extra/playfairdisplay/PlayfairDisplay[wght].ttf"
+ },
+ {
+  "family": "Playfair Display",
+  "style": "Italic",
+  "file": "extra/playfairdisplay/PlayfairDisplay-Italic[wght].ttf"
+ },
+ {
+  "family": "Spectral",
+  "style": "Bold",
+  "file": "extra/spectral/Spectral-Bold.ttf"
+ },
+ {
+  "family": "Spectral",
+  "style": "Bold Italic",
+  "file": "extra/spectral/Spectral-BoldItalic.ttf"
+ },
+ {
+  "family": "Spectral",
+  "style": "Italic",
+  "file": "extra/spectral/Spectral-Italic.ttf"
+ },
+ {
+  "family": "Spectral",
+  "style": "Regular",
+  "file": "extra/spectral/Spectral-Regular.ttf"
+ },
+ {
+  "family": "Fraunces",
+  "style": "Black",
+  "file": "extra/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf"
+ },
+ {
+  "family": "Fraunces",
+  "style": "Black Italic",
+  "file": "extra/fraunces/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
+ },
+ {
+  "family": "Cardo",
+  "style": "Bold",
+  "file": "extra/cardo/Cardo-Bold.ttf"
+ },
+ {
+  "family": "Cardo",
+  "style": "Italic",
+  "file": "extra/cardo/Cardo-Italic.ttf"
+ },
+ {
+  "family": "Cardo",
+  "style": "Regular",
+  "file": "extra/cardo/Cardo-Regular.ttf"
+ },
+ {
+  "family": "Roboto",
+  "style": "Regular",
+  "file": "extra/roboto/Roboto[wdth,wght].ttf"
+ },
+ {
+  "family": "Roboto",
+  "style": "Italic",
+  "file": "extra/roboto/Roboto-Italic[wdth,wght].ttf"
+ },
+ {
+  "family": "Open Sans",
+  "style": "Regular",
+  "file": "extra/opensans/OpenSans[wdth,wght].ttf"
+ },
+ {
+  "family": "Open Sans",
+  "style": "Italic",
+  "file": "extra/opensans/OpenSans-Italic[wdth,wght].ttf"
+ },
+ {
+  "family": "Lato",
+  "style": "Bold",
+  "file": "extra/lato/Lato-Bold.ttf"
+ },
+ {
+  "family": "Lato",
+  "style": "Bold Italic",
+  "file": "extra/lato/Lato-BoldItalic.ttf"
+ },
+ {
+  "family": "Lato",
+  "style": "Italic",
+  "file": "extra/lato/Lato-Italic.ttf"
+ },
+ {
+  "family": "Lato",
+  "style": "Regular",
+  "file": "extra/lato/Lato-Regular.ttf"
+ },
+ {
+  "family": "Montserrat",
+  "style": "Thin",
+  "file": "extra/montserrat/Montserrat[wght].ttf"
+ },
+ {
+  "family": "Montserrat",
+  "style": "Thin Italic",
+  "file": "extra/montserrat/Montserrat-Italic[wght].ttf"
+ },
+ {
+  "family": "Oswald",
+  "style": "Regular",
+  "file": "extra/oswald/Oswald[wght].ttf"
+ },
+ {
+  "family": "Raleway",
+  "style": "Thin",
+  "file": "extra/raleway/Raleway[wght].ttf"
+ },
+ {
+  "family": "Raleway",
+  "style": "Thin Italic",
+  "file": "extra/raleway/Raleway-Italic[wght].ttf"
+ },
+ {
+  "family": "Fira Sans",
+  "style": "Bold",
+  "file": "extra/firasans/FiraSans-Bold.ttf"
+ },
+ {
+  "family": "Fira Sans",
+  "style": "Bold Italic",
+  "file": "extra/firasans/FiraSans-BoldItalic.ttf"
+ },
+ {
+  "family": "Fira Sans",
+  "style": "Italic",
+  "file": "extra/firasans/FiraSans-Italic.ttf"
+ },
+ {
+  "family": "Fira Sans",
+  "style": "Regular",
+  "file": "extra/firasans/FiraSans-Regular.ttf"
+ },
+ {
+  "family": "Source Sans 3",
+  "style": "ExtraLight",
+  "file": "extra/sourcesans3/SourceSans3[wght].ttf"
+ },
+ {
+  "family": "Source Sans 3",
+  "style": "ExtraLight Italic",
+  "file": "extra/sourcesans3/SourceSans3-Italic[wght].ttf"
+ },
+ {
+  "family": "Noto Sans",
+  "style": "Regular",
+  "file": "extra/notosans/NotoSans[wdth,wght].ttf"
+ },
+ {
+  "family": "Noto Sans",
+  "style": "Italic",
+  "file": "extra/notosans/NotoSans-Italic[wdth,wght].ttf"
+ },
+ {
+  "family": "Nunito",
+  "style": "ExtraLight",
+  "file": "extra/nunito/Nunito[wght].ttf"
+ },
+ {
+  "family": "Nunito",
+  "style": "ExtraLight Italic",
+  "file": "extra/nunito/Nunito-Italic[wght].ttf"
+ },
+ {
+  "family": "Work Sans",
+  "style": "Regular",
+  "file": "extra/worksans/WorkSans[wght].ttf"
+ },
+ {
+  "family": "Work Sans",
+  "style": "Italic",
+  "file": "extra/worksans/WorkSans-Italic[wght].ttf"
+ },
+ {
+  "family": "Barlow Condensed",
+  "style": "Bold",
+  "file": "extra/barlowcondensed/BarlowCondensed-Bold.ttf"
+ },
+ {
+  "family": "Barlow Condensed",
+  "style": "Bold Italic",
+  "file": "extra/barlowcondensed/BarlowCondensed-BoldItalic.ttf"
+ },
+ {
+  "family": "Barlow Condensed",
+  "style": "Italic",
+  "file": "extra/barlowcondensed/BarlowCondensed-Italic.ttf"
+ },
+ {
+  "family": "Barlow Condensed",
+  "style": "Regular",
+  "file": "extra/barlowcondensed/BarlowCondensed-Regular.ttf"
+ },
+ {
+  "family": "Bebas Neue",
+  "style": "Regular",
+  "file": "extra/bebasneue/BebasNeue-Regular.ttf"
+ },
+ {
+  "family": "Anton",
+  "style": "Regular",
+  "file": "extra/anton/Anton-Regular.ttf"
+ },
+ {
+  "family": "Caveat",
+  "style": "Regular",
+  "file": "extra/caveat/Caveat[wght].ttf"
+ },
+ {
+  "family": "Kalam",
+  "style": "Bold",
+  "file": "extra/kalam/Kalam-Bold.ttf"
+ },
+ {
+  "family": "Kalam",
+  "style": "Regular",
+  "file": "extra/kalam/Kalam-Regular.ttf"
+ },
+ {
+  "family": "Special Elite",
+  "style": "Regular",
+  "file": "extra/specialelite/SpecialElite-Regular.ttf"
+ },
+ {
+  "family": "Bangers",
+  "style": "Regular",
+  "file": "extra/bangers/Bangers-Regular.ttf"
+ },
+ {
+  "family": "Permanent Marker",
+  "style": "Regular",
+  "file": "extra/permanentmarker/PermanentMarker-Regular.ttf"
+ },
+ {
+  "family": "Amatic SC",
+  "style": "Bold",
+  "file": "extra/amaticsc/AmaticSC-Bold.ttf"
+ },
+ {
+  "family": "Amatic SC",
+  "style": "Regular",
+  "file": "extra/amaticsc/AmaticSC-Regular.ttf"
+ },
+ {
+  "family": "Patrick Hand",
+  "style": "Regular",
+  "file": "extra/patrickhand/PatrickHand-Regular.ttf"
+ },
+ {
+  "family": "Orbitron",
+  "style": "Regular",
+  "file": "extra/orbitron/Orbitron[wght].ttf"
+ },
+ {
+  "family": "Exo 2",
+  "style": "Regular",
+  "file": "extra/exo2/Exo2[wght].ttf"
+ },
+ {
+  "family": "Exo 2",
+  "style": "Italic",
+  "file": "extra/exo2/Exo2-Italic[wght].ttf"
+ },
+ {
+  "family": "Audiowide",
+  "style": "Regular",
+  "file": "extra/audiowide/Audiowide-Regular.ttf"
+ },
+ {
+  "family": "Share Tech Mono",
+  "style": "Regular",
+  "file": "extra/sharetechmono/ShareTechMono-Regular.ttf"
+ },
+ {
+  "family": "Fira Code",
+  "style": "Light",
+  "file": "extra/firacode/FiraCode[wght].ttf"
+ },
+ {
+  "family": "Michroma",
+  "style": "Regular",
+  "file": "extra/michroma/Michroma-Regular.ttf"
+ },
+ {
+  "family": "Russo One",
+  "style": "Regular",
+  "file": "extra/russoone/RussoOne-Regular.ttf"
+ }
+]

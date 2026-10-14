@@ -1,0 +1,59 @@
+appId: com.spadewick.app
+productName: Spadewick
+copyright: Copyright © 2026
+
+directories:
+  output: dist
+  buildResources: build
+
+files:
+  - out/**/*
+  - node_modules/**/*
+  - '!node_modules/**/{CHANGELOG.md,README.md,readme.md,test,__tests__,tests,example,examples}'
+  - '!node_modules/**/*.{md,map}'
+
+asar: true
+
+# resvg reads the default fonts by file path, which asar archives cannot serve
+extraResources:
+  - from: resources/fonts
+    to: fonts
+  - from: resources/profiles
+    to: profiles
+  # the licences of the bundled fonts travel with the application
+  - from: THIRD-PARTY-NOTICES.md
+    to: THIRD-PARTY-NOTICES.md
+  # the command line launcher (PRD section 21.2): resources/spadewick.cmd
+  - from: scripts/spadewick.cmd
+    to: spadewick.cmd
+
+win:
+  icon: build/icon.ico
+  target:
+    - target: dir
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+
+# One self-extracting file, for testing without installing
+portable:
+  artifactName: Spadewick-${version}-portable.${ext}
+
+mac:
+  target:
+    - target: dir
+      arch: [x64, arm64]
+
+linux:
+  target:
+    - target: AppImage
+      arch: [x64]
+
+# better-sqlite3 for the packaged Electron version is put in node_modules by `npm run dist`
+# (scripts/native.mjs --electron-only), which fetches it fresh every time. Letting electron-builder rebuild it
+# as well skipped the work when its own marker said "done" while node_modules held the Node build, and the
+# packaged app then could not open projects (Fixes F5).
+npmRebuild: false
+nodeGypRebuild: false
+
+publish: null

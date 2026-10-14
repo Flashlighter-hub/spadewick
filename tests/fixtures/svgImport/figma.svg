@@ -1,0 +1,19 @@
+<svg width="744" height="1039" viewBox="0 0 744 1039" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Card">
+<rect id="Frame" width="744" height="1039" rx="40" fill="#F4EBD0"/>
+<rect id="Art" x="60" y="140" width="624" height="420" rx="24" fill="url(#pattern0)"/>
+<rect id="Rectangle 12" x="40" y="590" width="664" height="360" fill="#FFFFFF" fill-opacity="0.6"/>
+<rect id="Rules_box" x="60" y="610" width="624" height="320" opacity="0"/>
+<text id="Name" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="56" font-weight="bold" letter-spacing="0em"><tspan x="60" y="104.8">Fireball</tspan></text>
+<text id="Name_1" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="20" letter-spacing="0em"><tspan x="60" y="130">Small name</tspan></text>
+<text id="Mana cost" fill="#B00020" xml:space="preserve" style="white-space: pre" font-family="Liberation Serif" font-size="48" letter-spacing="0em"><tspan x="600" y="104.8">3R</tspan></text>
+<text id="Rules" fill="#222222" xml:space="preserve" style="white-space: pre" font-family="Liberation Serif" font-size="36" letter-spacing="0em"><tspan x="60" y="650">Deal 4 damage to any target.</tspan><tspan x="60" y="700">Burn it all.</tspan></text>
+<g id="hide-if:cost &gt; 5"><circle cx="700" cy="40" r="20" fill="#FFD400"/></g>
+<rect id="Old layer" x="0" y="0" width="10" height="10" fill="red" visibility="hidden"/>
+<rect id="Accent" x="0" y="0" width="744" height="20" fill="#B00020"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1"><use xlink:href="#image0_1_2" transform="scale(0.125 0.1875)"/></pattern>
+<image id="image0_1_2" width="8" height="8" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAFklEQVR4nGNgGAWjYBSMglEwCkbBKAAAAwAAB8gABf9UwQAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

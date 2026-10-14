@@ -1,0 +1,77 @@
+name: Tests
+
+# PRD §24.2 phase 0.5 and A71: Spadewick 2.0 is built, tested and released for Windows 10 and 11 only, so the whole
+# suite runs on Windows. macOS and Linux return to this file when they are supported again.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # The export tests rasterise PDFs with pdftoppm, and the snapshot tests list zip files with unzip (Git for Windows ships it)
+      - name: System tools (poppler for PDF checks, unzip)
+        shell: pwsh
+        run: |
+          choco install poppler --no-progress -y
+          $poppler = Get-ChildItem 'C:\ProgramData\chocolatey\lib\poppler' -Recurse -Filter pdftoppm.exe | Select-Object -First 1
+          Add-Content $env:GITHUB_PATH $poppler.DirectoryName
+          Add-Content $env:GITHUB_PATH 'C:\Program Files\Git\usr\bin'
+
+      - name: Install dependencies
+        run: npm ci
+        env:
+          ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
+
+      - name: Unit and integration tests (rendering, colour, PDF boxes, snapshots, the command line)
+        run: npm test
+
+      - name: Install Chromium for the end-to-end tests
+        run: npx playwright-core install chromium
+
+      - name: End-to-end tests
+        run: npm run test:e2e
+
+      - name: Production build
+        run: npm run build
+
+  # The packaged application: builds the unpacked Windows app, checks that its native parts are the right ones, and
+  # starts the command line through the launcher that ships with it (PRD §21.2, spike E for Windows).
+  package:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies (with the Electron binary)
+        run: npm ci
+
+      - name: Build the unpacked application
+        run: |
+          npm run build
+          node scripts/native.mjs --electron-only
+          npx electron-builder --win dir
+          node scripts/native.mjs --node-only
+          node scripts/verify-package.mjs
+
+      - name: Command line smoke test through the packaged launcher
+        shell: cmd
+        run: |
+          dist\win-unpacked\resources\spadewick.cmd version || exit /b 1
+          dist\win-unpacked\resources\spadewick.cmd help || exit /b 1

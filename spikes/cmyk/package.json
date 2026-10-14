@@ -1,0 +1,1 @@
+{"type":"module","name":"spike-cmyk","private":true,"dependencies":{"lcms-wasm":"^1.0.5"}}

@@ -1,0 +1,35 @@
+# Dependencies and build output
+node_modules/
+out/
+dist/
+
+# Local databases and app data
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+projects/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.pfx
+*.key
+.claude/
+
+# Logs, temp and OS files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Experiments (spikes/): keep the scripts and REPORT.md, not generated output, installed packages,
+# or third-party files whose redistribution is not confirmed (ECI profiles and their PDF)
+spikes/**/node_modules/
+spikes/**/out/
+spikes/**/profiles/
+spikes/**/fonts/
+
+# Internal competitor research, not for the public repository
+competition.md
