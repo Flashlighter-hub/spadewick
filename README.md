@@ -1,6 +1,6 @@
 # Spadewick
 
-A portable, offline, Windows 10/11 card-game design tool: card data table, SVG templates, and a **Help** tab with a guide to formulas, template tokens, conditions, text fitting and rich text; export to Tabletop Simulator, print-and-play PDF and PNG sheets. The full specification is in [PRD.md](PRD.md).
+A portable, offline, Windows 10/11 card-game design tool: card data table, SVG templates, and a **Help** tab with a guide to formulas, template tokens, conditions, text fitting and rich text; export to Tabletop Simulator, print-and-play PDF and PNG sheets. 
 
 ## What is in it
 
